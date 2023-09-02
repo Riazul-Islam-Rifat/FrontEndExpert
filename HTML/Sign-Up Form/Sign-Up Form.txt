@@ -1,0 +1,22 @@
+<!-- Write your code here. -->
+<form>
+  <label for="username">Username:</label>
+  <input id="username" type="text" required/>
+
+  <label for="password">Password:</label>
+  <input id="password" type="password" required />
+
+  <label for="email">Email:</label>
+  <input id="email" type="email" required/>
+
+  <label for="phone"> Phone Number:</label>
+  <input id="phone" type="tel" /> <!-- tel is a type for number -->
+
+  <label for="date"> Date of Birth:</label>
+  <input id="date" type="date" />
+
+  <label for="check"> I agree to the TOS</label>
+  <input id="check" type="checkbox" required/>
+
+  <button>Sign Up</button>
+</form>
