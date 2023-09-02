@@ -1,0 +1,31 @@
+/*
+div{
+  border-radius:50% [Select each div and make it circle]
+}
+*/
+#outer{
+  background-color:#ffa500;
+  height: 200px;
+  width:200px;
+  border: 25px solid #ff0000;
+  padding:25px;
+  border-radius:50%
+}
+
+#middle{
+  background-color:#008000;
+  height:100px;  /* Padding 25px in each side will make it 150px*/
+  width:100px;
+  border:25px solid #ffff00;
+  padding: 25px; /* Move the inner div in the middle of the green part*/
+  border-radius:50%
+}
+
+
+#inner{
+  background-color:#800080;
+  height:50px;
+  width:50px;
+  border:25px solid #0000ff; /*25px as purple is 25px and each side 25px+25px will make the blue 100px*/
+  border-radius:50%
+}
