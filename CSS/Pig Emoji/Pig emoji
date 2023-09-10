@@ -1,0 +1,91 @@
+/* Write your code here. */
+:root{
+  --main-color: #ffc0cb;
+  --main-border: 5px solid black;
+  --secondary-border: 2px solid black
+}
+
+.head{
+  position:relative;
+  margin-top:20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: var(--main-border);
+  background-color: var(--main-color);
+}
+
+.ear{
+  position:absolute;
+  z-index:-1;
+  height:50px;
+  width:50px;
+  top:-10px;
+  background-color:var(--main-color);
+  border: var(--main-border);
+  border-radius:50%;
+}
+.ear:first-child{
+  left:10px
+}
+.ear:nth-child(2){
+  right:10px
+}
+
+.eye{
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:50px;
+  width:50px;
+  background-color:white;
+  border: var(--secondary-border);
+  border-radius:50%;
+  top:40px;
+}
+.eye:first-child{
+  left:30px;
+}
+.eye:nth-child(2){
+  right:30px;
+}
+.pupil{
+  height:50%;
+  width:50%;
+  background-color:black;
+  border-radius:50%;
+}
+
+.nose{
+  position:absolute;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  height:60px;
+  width:100px;
+  bottom:30px;
+  background-color:#f57187;
+  border-radius:35%;
+  border:var(--secondary-border);
+  /*margin: 0 auto;
+  right:0;
+  left:0;**/
+  /*Another way to put this element in center*/
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nostril{
+  height:50%;
+  width:25%;
+  background-color:black;
+  border-radius:50%;
+}
+
+
+
+
+
+
+
+
