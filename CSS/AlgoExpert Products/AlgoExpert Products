@@ -1,0 +1,51 @@
+/*  Write your code here. */
+#wrapper{
+  display:flex;
+  justify-content: space-between;
+  align-content: space-between; /*Used only in wrap and align rows to the main axis*/
+  flex-wrap: wrap;
+  gap : 24px 10px
+}
+#algo-expert {
+  order: 3;
+  width: 75%;
+  margin: 0 auto;
+  background-color: #626ee3;
+}
+
+#systems-expert {
+  order:1;
+  width: 50%;
+  align-self: center;
+  background-color: #890023;
+}
+
+#ml-expert {
+  order:2;
+  width:30%;
+  height: 75px;
+  background-color: #f37f1b;
+}
+
+#frontend-expert {
+  order: 4;
+  width: 40%;
+  align-self: flex-end;
+  background-color: #11967e;
+}
+
+#programming-expert {
+  order: 5;
+  height: 75px;
+  flex-grow: 1;
+  background-color: #f21b3f;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+}
