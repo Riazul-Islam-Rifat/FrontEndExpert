@@ -1,0 +1,59 @@
+/* Write your code here. */
+
+#wrapper {
+  background-color: lightgrey;
+  padding: 10px;
+  width: 280px;
+  border-radius:10px
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  margin: 0 0 10px 0;
+}
+img{
+  grid-area: photo;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  border: 1px solid black;
+}
+#notifications{
+  display:flex;
+  flex-direction:column;
+  gap: 10px;
+}
+.notification{
+  display:grid;
+  grid-template-areas:
+    'photo text'
+    'photo time';
+  background-color:white;
+  border-radius: 10px;
+  padding:10px;
+  gap:10px
+}
+p{
+  grid-area:text;
+  margin:0
+}
+.user{
+  font-weight: bold;
+}
+.time{
+  grid-area:time;
+  justify-self: end;
+  align-self:end;
+  margin: 0;
+  font-size:12px;
+  font-style:italic
+}
+button{
+  margin-top:10px;
+  width:100%;
+  font-size:16px;
+  border-radius:10px;
+  padding:10px;
+  background-color:#02203c;
+  color:white;
+}
